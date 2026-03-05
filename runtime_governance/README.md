@@ -1,3 +1,17 @@
+# Runtime Prompt Governance
+
+A system for detecting prompt injection attacks in LLM applications.
+
+Features:
+- Prompt classification using RoBERTa
+- Session-level risk aggregation
+- Policy-based guardrails
+- FastAPI service for runtime detection
+
+Tech Stack:
+Python, HuggingFace Transformers, FastAPI, Docker
+
+
 ## Runtime Governance Evaluation
 
 We evaluated a prompt-injection governance system on a balanced dataset
