@@ -34,3 +34,7 @@ blocking benign traffic.
 ### Key insight
 Temporal aggregation and policy logic are more important than improving
 single-prompt classification accuracy for real-world LLM safety.
+
+
+pip install -r requirements.txt
+uvicorn api.main:app
